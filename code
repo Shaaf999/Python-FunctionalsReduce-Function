@@ -2,7 +2,7 @@ from fractions import Fraction
 from functools import reduce
 
 def product(fracs):
-    t =reduce(lambda x,y: x*y,fracs) # complete this line with a reduce statement
+    t =reduce(lambda x,y: x*y,fracs) # complete this line with a reduce statement  #ex:  reduce(lambda x, y : x + y,[1,2,3])   # used if same function like + operater to be carried out  throughout the list
     return (t.numerator, t.denominator)
 
 if __name__ == '__main__':
